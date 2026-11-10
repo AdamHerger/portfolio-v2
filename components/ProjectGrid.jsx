@@ -6,7 +6,7 @@ function ProjectGrid() {
       <div id="projects" className="project-grid">
         <Project
           image="/Foto.png"
-          text="text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text "
+          text="texts text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text "
         />
         <Project image="/well.png" text="text text text " />
         <Project image="/Foto.png" text="text text text " />
