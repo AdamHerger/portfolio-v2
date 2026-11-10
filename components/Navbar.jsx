@@ -2,10 +2,10 @@ function Navbar() {
   return (
     <ul className="navbar">
       <li>
-        <a href="default.asp">Home</a>
+        <a href="/">Home</a>
       </li>
       <li>
-        <a href="about.asp">About</a>
+        <a href="about">About</a>
       </li>
     </ul>
   );

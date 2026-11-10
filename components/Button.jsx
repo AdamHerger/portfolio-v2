@@ -1,7 +1,9 @@
 "use client";
-function Button({ text }) {
+function Button({ text, id }) {
   function handleClick() {
-    console.log("clicked");
+    document
+      .getElementById(id)
+      ?.scrollIntoView({ behavior: "smooth", block: "start" });
   }
   return <button onClick={handleClick}>{text}</button>;
 }
