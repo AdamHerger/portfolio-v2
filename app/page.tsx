@@ -27,7 +27,7 @@ export default function Home() {
           <div className="profile">
             <Image
               className="image"
-              src={"/Foto.png"}
+              src={"Foto.png"}
               width={300}
               height={300}
               alt="profile picture"
