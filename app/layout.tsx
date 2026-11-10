@@ -8,8 +8,8 @@ const firaSans = Fira_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio Title",
-  description: "Portfolio Description",
+  title: "Herger Dev",
+  description: "Portfolio of Adam Herger",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
