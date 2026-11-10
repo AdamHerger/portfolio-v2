@@ -105,6 +105,8 @@ button:active {
   display: flex;
   gap: 30px;
   justify-content: center;
+  background-image: url("/portfolio-v2/retro computer.gif");
+  background-size: cover;
 }
 
 .image {
