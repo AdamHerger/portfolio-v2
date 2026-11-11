@@ -3,7 +3,7 @@ import Image from "next/image";
 function Project({ text, image }) {
   return (
     <>
-      <div className="project">
+      <div className="project animate-on-scroll">
         <Image
           className="project-image"
           src={image}

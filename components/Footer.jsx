@@ -3,7 +3,7 @@
 function Footer() {
   return (
     <ul id="contact" className="footer">
-      <li>
+      <li className="email-footer">
         <a onClick={copy}>email: adam [at] herger (dot) at</a>
       </li>
       <li>
@@ -12,7 +12,12 @@ function Footer() {
         </a>
       </li>
       <li>
-        <a href="/">Back to top</a>
+        <a target="_blank" href="https://www.linkedin.com/in/adamherger/">
+          LinkedIn
+        </a>
+      </li>
+      <li className="email-footer">
+        <a onClick={scrollOnClick}>Back to top</a>
       </li>
     </ul>
   );
@@ -20,7 +25,15 @@ function Footer() {
 
 function copy() {
   navigator.clipboard.writeText("adam@herger.at");
-  alert("Email address copied");
+  const popup = document.getElementById("popup");
+  popup.classList.add("open");
+  setTimeout(() => popup.classList.remove("open"), 3000);
+}
+
+function scrollOnClick() {
+  document
+    .getElementById("navbar")
+    ?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 export default Footer;

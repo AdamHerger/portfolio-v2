@@ -1,16 +1,19 @@
-import Button from "../components/Button";
+import AnchorButton from "../components/AnchorButton";
 import Navbar from "../components/Navbar";
 import Image from "next/image";
 import Footer from "../components/Footer";
 import ProjectGrid from "../components/ProjectGrid";
+import Popup from "../components/Popup";
+import ContactButton from "../components/ContactButton";
 
 export default function Home() {
   return (
     <>
       <Navbar />
+      <div className="gif-div" />
       <main>
         <div className="two-pager">
-          <div className="main-page-header">
+          <div className="main-page-header animate-on-load">
             <h1>Adam Herger</h1>
             <h3>Computer Science Student</h3>
             <p>
@@ -20,22 +23,16 @@ export default function Home() {
               Feel free to contact me!
             </p>
             <div className="content-holder">
-              <Button id="projects" text={"Explore Projects"}></Button>
-              <Button id="contact" text={"Contact"}></Button>
+              <AnchorButton
+                id="projects"
+                text={"Explore Projects"}
+              ></AnchorButton>
+              <ContactButton id="contact" text={"Contact"}></ContactButton>
             </div>
-          </div>
-          <div className="profile">
-            <Image
-              className="image"
-              src={"/Foto.png"}
-              width={300}
-              height={300}
-              alt="profile picture"
-              priority
-            />
           </div>
         </div>
         <ProjectGrid />
+        <Popup text="Email address copied!" />
       </main>
       <Footer />
     </>
