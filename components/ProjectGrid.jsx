@@ -5,11 +5,11 @@ function ProjectGrid() {
     <>
       <div id="projects" className="project-grid">
         <Project
-          image="/Foto.webp"
+          image="/tomb style.webp"
           text="texts text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text "
         />
         <Project image="/well.webp" text="text text text " />
-        <Project image="/Foto.webp" text="text text text " />
+        <Project image="/tomb style.webp" text="text text text " />
         <Project image="/well.webp" text="text text text " />
       </div>
     </>

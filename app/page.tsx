@@ -10,11 +10,22 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="gif-div" />
+      <video className="background-video" autoPlay muted loop playsInline>
+        <source src="/retro out.webm" type="video/webm" />
+      </video>
       <main>
         <div className="two-pager">
           <div className="main-page-header animate-on-load">
-            <h1>Adam Herger</h1>
+            <div className="next-to-eachother">
+              <h1>Adam Herger</h1>
+              <Image
+                className="profile"
+                src={"/Foto.webp"}
+                alt="profile picture"
+                width={200}
+                height={200}
+              />{" "}
+            </div>
             <h3>Computer Science Student</h3>
             <p>
               I'm a computer science student pursuing my MSc in Software
