@@ -15,7 +15,7 @@ body {
   color: var(--bluedark);
   font-family: var(--font-main);
   margin: 0;
-  overflow-x: hidden;
+  overflow-x: clip;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -163,6 +163,7 @@ button:active {
   display: flex;
   position: relative;
   width: 100%;
+  box-sizing: border-box;
   justify-content: right;
   background: var(--transparent);
   gap: 16px;
@@ -306,7 +307,7 @@ button:active {
   }
 
   .footer a {
-    font-size: small;
+    font-size: 12px;
   }
 
   .project {
