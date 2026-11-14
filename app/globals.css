@@ -5,7 +5,7 @@
   --bluemed: #1d2d44;
   --bluelight: #3e5c76;
   --blueverylight: #748cab;
-  --golden: #f5ae5d;
+  --golden: #f5b770;
   --transparent: #f0ebd81a;
 }
 
@@ -310,6 +310,10 @@ button:active {
     font-size: 12px;
   }
 
+  .footerdynamic a {
+    font-size: 10px;
+  }
+
   .project {
     display: block;
   }
@@ -333,5 +337,30 @@ button:active {
 
   h1 {
     font-size: 40px;
+  }
+}
+
+@media screen and (max-height: 580px) {
+  .profile {
+    width: 110px;
+    height: 110px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-height: 540px) {
+  .profile {
+    display: none;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  main {
+    font-size: 15px;
   }
 }

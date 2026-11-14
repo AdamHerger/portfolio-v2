@@ -2,7 +2,7 @@
 
 function Footer() {
   return (
-    <ul id="contact" className="footer">
+    <ul id="contact" className="footer footerdynamic">
       <li className="email-footer">
         <a onClick={copy}>email: adam [at] herger (dot) at</a>
       </li>
