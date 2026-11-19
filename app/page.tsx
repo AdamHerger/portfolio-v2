@@ -10,7 +10,13 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <video className="background-video" autoPlay muted loop playsInline>
+      <video
+        className="background-video fade-in-on-load"
+        autoPlay
+        muted
+        loop
+        playsInline
+      >
         <source src="/retro out.webm" type="video/webm" />
       </video>
       <main>
