@@ -10,17 +10,17 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <video
-        className="background-video fade-in-on-load"
-        autoPlay
-        muted
-        loop
-        playsInline
-      >
-        <source src="/retro out.webm" type="video/webm" />
-      </video>
       <main>
         <div className="two-pager">
+          <video
+            className="background-video fade-in-on-load"
+            autoPlay
+            muted
+            loop
+            playsInline
+          >
+            <source src="/vid.mkv" type="video/mp4" />
+          </video>
           <div className="main-page-header animate-on-load">
             <div className="next-to-eachother">
               <h1>Adam Herger</h1>

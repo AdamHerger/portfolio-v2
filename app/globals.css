@@ -17,9 +17,6 @@ body {
   margin: 0;
   overflow-x: clip;
   background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 h1 {
@@ -68,7 +65,7 @@ button:active {
 }
 
 .background-video {
-  position: fixed;
+  position: absolute;
   inset: 0;
 
   width: 100%;
@@ -79,6 +76,8 @@ button:active {
 
   z-index: -1;
   pointer-events: none;
+
+  mask-image: linear-gradient(to bottom, black 0%, black 90%, transparent 100%);
 }
 
 .anchorbutton {
