@@ -195,6 +195,7 @@ button:active {
   border-radius: 10px;
   background: var(--eggshell);
   border-color: var(--eggshell);
+  white-space: pre-wrap;
 }
 
 .project-image {

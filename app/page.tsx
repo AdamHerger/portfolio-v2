@@ -34,6 +34,10 @@ export default function Home() {
             </div>
             <h3>Computer Science Student</h3>
             <p>
+              MSc CS Student @ TU Wien
+              <br />
+              BSc CS @ TU Wien
+              <br /> <br />
               I'm a computer science student pursuing my MSc in Software
               Engineering at the Technical University of Vienna.
               <br /> <br />
