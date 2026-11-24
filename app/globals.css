@@ -189,7 +189,7 @@ button:active {
 .project {
   width: 100%;
   height: auto;
-  margin: 50px 0;
+  margin: 100px 0;
   display: flex;
   border-inline: solid 6px var(--eggshellcontrast);
   border-radius: 10px;
@@ -198,15 +198,20 @@ button:active {
 }
 
 .project-image {
-  width: 400px;
+  width: 520px;
   height: 100%;
   object-fit: contain;
   display: flex;
+  transition: opacity 0.2s;
+}
+
+.project-image:hover {
+  opacity: 90%;
 }
 
 .project-text {
   text-align: left;
-  padding: 5px;
+  padding: 15px;
   flex: 1;
 }
 
@@ -314,6 +319,20 @@ button:active {
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .project {
+    display: block;
+  }
+
+  .project-text {
+    text-align: center;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 800px) {
   main {
     padding-top: 2vh;
@@ -325,18 +344,6 @@ button:active {
 
   .footerdynamic a {
     font-size: 10px;
-  }
-
-  .project {
-    display: block;
-  }
-
-  .project-text {
-    text-align: center;
-  }
-
-  .project-image {
-    width: 100%;
   }
 
   .two-pager {

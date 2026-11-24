@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Fira_Sans } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 
-const firaSans = Fira_Sans({
+const roboto = Roboto({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700"],
 });
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en">
-      <body className={firaSans.className}>{children}</body>
+      <body className={roboto.className}>{children}</body>
     </html>
   );
 }

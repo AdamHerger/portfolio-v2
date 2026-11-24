@@ -5,12 +5,18 @@ function ProjectGrid() {
     <>
       <div id="projects" className="project-grid">
         <Project
-          image="/tomb style.webp"
-          text="texts text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text "
+          content="/ffc_better.mp4"
+          text="The FFC visualization tool is a web-based, interactive, highly filterable force-directed node graph intended to visualize the film festival circuit."
+          type="video"
+          link="https://github.com/AdamHerger/ffcvisualization"
         />
-        <Project image="/well.webp" text="text text text " />
-        <Project image="/tomb style.webp" text="text text text " />
-        <Project image="/well.webp" text="text text text " />
+        <Project content="/well.webp" text="text text text " type="image" />
+        <Project
+          content="/tomb style.webp"
+          text="text text text "
+          type="image"
+        />
+        <Project content="/well.webp" text="text text text " type="image" />
       </div>
     </>
   );
