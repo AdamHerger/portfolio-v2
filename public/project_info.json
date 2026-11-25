@@ -1,0 +1,24 @@
+{
+  "projects": [
+    {
+      "title": "FFC",
+      "description": "For my bachelor thesis, I built an interactive, web-based, force-directed node graph, intended for visualizing the film festival circuit.\n\nThe tool was built using the D3 library for constructing the node graph and histogram statistics, as well as React and Vite.",
+      "content": "/ffc_better.mp4",
+      "type": "video",
+      "link": "https://github.com/AdamHerger/ffcvisualization"
+    },
+    {
+      "title": "Youtube",
+      "description": "For roughly five years I created graphic design and Steam video tutorials on YouTube, reaching millions of people.\n\nIn total, my YouTube channel achieved over 4 Million views and grew to over 15.000 subscribers.\n\nAdditionally, I was commissioned by companies such as Wix.com for sponsored videos.",
+      "content": "/youtube_demo.mp4",
+      "type": "video",
+      "link": "https://www.youtube.com/@TheFrozenFractal"
+    },
+    {
+      "title": "Tomb",
+      "description": "more text",
+      "content": "/tomb style.webp",
+      "type": "image"
+    }
+  ]
+}

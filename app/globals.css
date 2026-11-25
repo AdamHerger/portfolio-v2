@@ -1,11 +1,11 @@
 :root {
-  --eggshell: #f0ebd8;
-  --eggshellcontrast: #ddd3af;
+  --eggshell: #ebe8dd;
+  --eggshellcontrast: #e6dec5;
   --bluedark: #0d1321;
   --bluemed: #1d2d44;
   --bluelight: #3e5c76;
   --blueverylight: #748cab;
-  --golden: #f5b770;
+  --golden: #f1bd81;
   --transparent: #f0ebd81a;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 75px;
   font-weight: 300;
   display: flex;
   align-self: center;
@@ -194,7 +194,6 @@ button:active {
   border-inline: solid 6px var(--eggshellcontrast);
   border-radius: 10px;
   background: var(--eggshell);
-  border-color: var(--eggshell);
   white-space: pre-wrap;
 }
 
@@ -211,9 +210,10 @@ button:active {
 }
 
 .project-text {
+  display: flex;
   text-align: left;
-  padding: 15px;
-  flex: 1;
+  padding: 20px;
+  font-weight: 400;
 }
 
 .email-footer {

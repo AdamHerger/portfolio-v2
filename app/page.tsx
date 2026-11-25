@@ -30,6 +30,7 @@ export default function Home() {
                 alt="profile picture"
                 width={200}
                 height={200}
+                priority
               />{" "}
             </div>
             <h3>Computer Science Student</h3>
