@@ -325,7 +325,7 @@ button:active {
   }
 }
 
-/* media queries */
+/* media queries here */
 
 @media screen and (max-width: 1750px) {
   h1 {
