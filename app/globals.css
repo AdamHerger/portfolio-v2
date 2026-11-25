@@ -77,7 +77,19 @@ button:active {
   z-index: -1;
   pointer-events: none;
 
-  mask-image: linear-gradient(to bottom, black 0%, black 90%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 0%, black 65%, transparent 100%);
+}
+
+.unmoving-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-position: center;
+  pointer-events: none;
+  z-index: -2;
+  filter: brightness(80%) blur(4px);
 }
 
 .anchorbutton {
@@ -213,7 +225,6 @@ button:active {
   display: flex;
   text-align: left;
   padding: 20px;
-  font-weight: 400;
 }
 
 .email-footer {
@@ -239,6 +250,11 @@ button:active {
 .fade-in-on-load {
   opacity: 0;
   animation: fadeIn 1s ease-out forwards;
+}
+
+.fade-in-on-load-after {
+  opacity: 0;
+  animation: fadeInAfter 2s ease-out forwards;
 }
 
 .popup {
@@ -281,6 +297,18 @@ button:active {
     opacity: 0;
   }
   to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAfter {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
     opacity: 1;
   }
 }

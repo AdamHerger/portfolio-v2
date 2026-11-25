@@ -9,6 +9,14 @@ import ContactButton from "../components/ContactButton";
 export default function Home() {
   return (
     <>
+      <video
+        className="unmoving-background fade-in-on-load-after"
+        autoPlay
+        muted
+        loop
+      >
+        <source src="/unmoving_background.mkv" type="video/mp4" />
+      </video>
       <Navbar />
       <main>
         <div className="two-pager">
